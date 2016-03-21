@@ -1,0 +1,8 @@
+<div class="row random-part">
+	<div class="recommend">
+	    <h6> Preporučujemo </h6>
+	</div>
+	<div ng-repeat="gameIndex in randomIndexes" ng-click="gamePopUp($event)" class="link-img {{randomGames[gameIndex].name}}">
+		<a href="/casino-example/category/game/{{randomGames[gameIndex].name}}"><img src="{{randomGames[gameIndex].icon}}" alt=""></a>
+	</div>
+</div><!--end of random-->

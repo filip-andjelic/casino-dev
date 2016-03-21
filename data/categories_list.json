@@ -1,0 +1,15 @@
+{
+	"categories": [{
+    "id": "1", 
+    "name": "Card&Table Games"
+  }, {
+    "id": "2", 
+    "name": "Novomatic Games"
+  },{
+    "id": "3", 
+    "name": "Octavian Games"
+  },{
+    "id": "4", 
+    "name": "Casino Games"
+  }]
+}

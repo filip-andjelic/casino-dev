@@ -1,0 +1,239 @@
+{
+  "category": [
+    {
+      "name": "card&table",
+      "games": [
+        {
+          "name": "ORYX_AF",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/AF/kiosk.png"
+        },
+        {
+          "name": "ORYX_AR",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/AR/kiosk.png"
+        },
+        {
+          "name": "ORYX_BCC",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/BCC/kiosk.png"
+        },
+        {
+          "name": "ORYX_CH",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/CH/kiosk.png"
+        },
+        {
+          "name": "ORYX_DW",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/DW/kiosk.png"
+        },
+        {
+          "name": "ORYX_EC",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/EC/kiosk.png"
+        },
+        {
+          "name": "ORYX_ER",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/ER/kiosk.png"
+        },
+        {
+          "name": "ORYX_FR",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/FR/kiosk.png"
+        },
+        {
+          "name": "ORYX_JB",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/JB/kiosk.png"
+        },
+        {
+          "name": "ORYX_JP",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/JP/kiosk.png"
+        },
+        {
+          "name": "ORYX_MJ",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/MJ/kiosk.png"
+        },
+        {
+          "name": "ORYX_VS",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/VS/kiosk.png"
+        }
+      ]
+    },
+    {
+      "name": "novomatic",
+      "games": [
+        {
+          "name": "ORYX_AE",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/AE/kiosk.png"
+        },
+        {
+          "name": "ORYX_81B",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/81B/kiosk.png"
+        },
+        {
+          "name": "ORYX_BD",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/BD/kiosk.png"
+        },
+        {
+          "name": "ORYX_DP",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/DP/kiosk.png"
+        },
+        {
+          "name": "ORYX_FS",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/FS/kiosk.png"
+        },
+        {
+          "name": "ORYX_G7",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/G7/kiosk.png"
+        },
+        {
+          "name": "ORYX_G7C",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/G7C/kiosk.png"
+        },
+        {
+          "name": "ORYX_JJ",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/JJ/kiosk.png"
+        },
+        {
+          "name": "ORYX_JJD",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/JJD/kiosk.png"
+        },
+        {
+          "name": "ORYX_LLC",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/LLC/kiosk.png"
+        },
+        {
+          "name": "ORYX_POT",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/POT/kiosk.png"
+        },
+        {
+          "name": "ORYX_PS",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/PS/kiosk.png"
+        },
+        {
+          "name": "ORYX_PTH",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/PTH/kiosk.png"
+        },
+        {
+          "name": "ORYX_RF",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/RF/kiosk.png"
+        },
+        {
+          "name": "ORYX_S6",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/S6/kiosk.png"
+        },
+        {
+          "name": "ORYX_SG7",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/SG7/kiosk.png"
+        },
+        {
+          "name": "ORYX_SHD",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/SHD/kiosk.png"
+        }
+      ]
+    },
+    {
+      "name": "octavian",
+      "games": [
+        {
+          "name": "ORYX_AD",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/AD/kiosk.png"
+        },
+        {
+          "name": "ORYX_BA",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/BA/kiosk.png"
+        },
+        {
+          "name": "ORYX_BB",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/BB/kiosk.png"
+        },
+        {
+          "name": "ORYX_BT",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/BT/kiosk.png"
+        },
+        {
+          "name": "ORYX_FOF",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/FOF/kiosk.png"
+        },
+        {
+          "name": "ORYX_GR",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/GR/kiosk.png"
+        },
+        {
+          "name": "ORYX_KA",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/KA/kiosk.png"
+        },
+        {
+          "name": "ORYX_LLC",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/LLC/kiosk.png"
+        },
+        {
+          "name": "ORYX_LO",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/LO/kiosk.png"
+        },
+        {
+          "name": "ORYX_MRO",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/MRP/kiosk.png"
+        },
+        {
+          "name": "ORYX_REX",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/REX/kiosk.png"
+        },
+        {
+          "name": "ORYX_RQ",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/RQ/kiosk.png"
+        },
+        {
+          "name": "ORYX_DP",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/DP/kiosk.png"
+        },
+        {
+          "name": "ORYX_FS",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/FS/kiosk.png"
+        },
+        {
+          "name": "ORYX_XH",
+          "type": "oryx",
+          "icon": "/casino-example/build/images/games/oryx/XH/kiosk.png"
+        }
+      ]
+    }
+  ]
+}

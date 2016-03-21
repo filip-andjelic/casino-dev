@@ -1,0 +1,15 @@
+<div class="page-default">
+	<div id="landing-page" class="container-fluid">
+		<div class="container wrap-content">
+	    <div ng-include="'/casino-example/build/app/views/main/game-frame.html'"></div><!--this is iframe for game, it stays hidden until game is clicked-->
+	    <div class="row choose-part">
+	    	<div ng-repeat="category in categories" class="category cat-{{category.id}}"><!-- here we iterate through game categories and list them in main menu-->
+	    		<a id="{{category.id}}" ng-class="{'disabled': $last}" href="/casino-example/category/{{category.id}}">{{category.name}}</a>
+	    		<img src="/casino-example/src/images/common/game-shadow-big.png" alt="">
+	    	</div>
+	  	</div>
+	  	<div ng-include="'/casino-example/build/app/views/main/random.html'"></div>
+	  	<!--this part takes random starting number and displays 3 games-->
+    </div>
+  </div><!--end of landing-page--> 
+</div>

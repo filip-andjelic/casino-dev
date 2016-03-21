@@ -1,0 +1,313 @@
+body {
+	height: 100%;
+	background-image: url('/casino-example/src/images/common/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.main{
+  display: block;
+}
+div.page-default {
+	color: white;
+	height: 100%;
+	div.wrap-content {
+		padding-left: 5%;
+		padding-right: 5%;
+		div.head-part {
+			margin-top: 30px;
+			padding-bottom: 10px;
+			border-bottom: 1px ridge silver;
+			div:first-child {
+				padding-top: 20px;
+			}
+			div:last-child {
+				text-align: center;
+				padding-top: 15px;
+				&>p {
+					text-transform: uppercase;
+					font-weight: 600;
+					letter-spacing: 2px;
+				}
+			}
+			/* this part styles 'stanje' part of header */
+			div.count-money {
+				span {
+					position: relative;
+					left: 36%;
+					top: -20px;
+					float: left;
+				}
+				span.counter {
+					width: 22px;
+					height: 60px;
+					p {
+						font-size: 1.6em;
+						font-weight: 600;
+					}
+				}
+				span.separator {
+					background-image: none;
+					font-size: 1.4em;
+					margin: 0 3px 0 3px;
+				}
+				span.counter-sm {
+					width: 20px;
+					height: 47px;
+					margin-top: 6px;
+					p {
+						font-size: 1.2em;
+						font-weight: 600;
+					}
+				}
+				span.value {
+					background-image: none;
+					font-size: 2.3em;
+					font-weight: 600;
+					margin-left: 17px;
+					margin-top: -7px;
+				}
+			}
+		}
+		/*this part styles main menu */
+		div.choose-part {
+			min-height: 633px;
+			padding: 90px 10% 20px 10%;
+			border-bottom: 3px ridge silver;
+			div.category {
+				float: left;
+				width: 50%;
+				text-align: center;
+				margin-top: 20px;
+				height: 240px;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: 0px 100px;
+				a {
+					color: white !important;
+					font-size: 3.2em;
+					font-weight: 600;
+					text-transform: uppercase;
+					letter-spacing: -1px;
+					line-height: 1.2em;
+					text-decoration: none;
+					text-shadow: 0px 7px 20px black;
+					&:visited {
+						color: white;
+			      text-decoration: none;
+					}
+					&:hover {
+						color: white;
+						text-decoration: none;
+						text-shadow: 0px 0px 50px gold;
+					}
+					&:active {
+						color: white;
+						text-decoration: none;
+						text-shadow: 0px 7px 20px gold;
+					}
+				}
+				img {
+					opacity: 0;
+					animation-name: bringUpBg;
+			    animation-duration: 1s;
+			    animation-iteration-count: 1;
+			    animation-fill-mode: forwards;
+				}
+				.disabled {
+					color: grey !important;
+
+					&:visited {
+						color: grey;
+			      text-decoration: none;
+					}
+					&:hover {
+						color: grey;
+						text-decoration: none;
+						text-shadow:  0px 7px 20px black;
+					}
+					&:active {
+						color: grey;
+						text-decoration: none;
+						text-shadow:  0px 7px 20px black;
+					}
+				}
+			}
+		}
+		.cat-3, .cat-4 {
+			position: relative;
+			padding: 0px 10% 0px 10%;
+				img {
+					position: absolute;
+					left: 7%;
+					bottom: 20px;
+				}
+			}
+		div.cat-1 {
+			animation-name: flipInY;
+		    animation-duration: 1s;
+		    animation-iteration-count: 1;
+		}
+		div.cat-2 {
+			animation-name: flipInY;
+	    animation-duration: 1s;
+	    animation-iteration-count: 1;
+		}
+		div.cat-3 {
+			animation-name: flipInY;
+	    animation-duration: 1s;
+	    animation-iteration-count: 1;
+		}
+		div.cat-4 {
+			animation-name: flipInY;
+	    animation-duration: 1s;
+	    animation-iteration-count: 1;
+		}
+		/* this part styles 'nazad na pocetnu stranu' menu*/
+		div.menu-part {
+			margin-top: 30px;
+			div {
+				text-align: left;
+				span.glyphicon {
+					margin-right: 5px;
+					vertical-align: text-top;
+				}
+				a {
+					font-size: 1.2em;
+					font-weight: 600;
+					color: white;
+					text-decoration: none;
+					text-shadow: 0px 0px 50px gold;
+					&:visited {
+						text-decoration:none;
+						color: white;
+					}
+					&:hover {
+						text-decoration:none;
+						color: #ca9d3d;
+						span.glyphicon {
+							animation-name: slideOutLeft;
+			    			animation-duration: 1s;
+			    			animation-fill-mode: forwards;
+						}
+					}
+					&:active {
+						text-decoration:none;
+						color: white;
+					}
+				}
+			}
+		}
+		/*this part styles game icons menu */
+		div.select-part {
+			margin-top: 30px;
+			height: 600px;
+			border-bottom: 3px ridge silver;
+			&>div {
+				height: 100%;
+			}
+			div.arrow-left, div.arrow-right {
+				position: relative;
+				top: 35%;
+				width: 86px;
+				height: 113px;
+				background-image: url('/casino-example/src/images/common/arrows.png');
+			}
+			.arrow-left:hover {
+				background-position: 0 113px;
+			}
+			.arrow-right {
+				margin-left: 36%;
+				background-position: 86px 0;
+				&:hover {
+					background-position: 86px 113px;
+				}
+			}
+			div.col-lg-8 {
+				padding-left: 0;
+				&>div {
+					width: 100%;
+					height: 100%;
+				}
+				div.col-lg-3 {
+					padding-left: 0;
+					position: relative;
+					animation-name: zoomIn;
+			    animation-duration: 1s;
+			    animation-iteration-count: 1;
+					img.shadow {
+						position: absolute;
+						bottom: -25px;
+					}
+					&>a:hover {
+						animation-name: hvr-bob;
+				    animation-duration: 2s;
+				    animation-iteration-count: infinite;
+					}
+				}
+			}
+		}
+		/* this part styles random part of page */
+		div.random-part {
+			margin-top: 60px;
+			margin-bottom: 70px;
+			//padding-left: 20%;
+			div.recommend {
+				width: 30%;
+				padding: 5px 10px 3px 11px;
+				margin-top: -61px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 40px;
+				text-align: center;
+				border: 3px ridge silver;
+				border-top: none;
+				border-bottom-right-radius: 2em 4em;
+				border-bottom-left-radius: 2em 4em;
+				z-index: 9988;
+				h6{
+					font-weight: 600;
+					font-size: 1.4em;
+					text-transform: uppercase;
+					text-shadow: -3px 2px 50px black;
+				}
+			}
+			div.link-img {
+				left: 20%;
+				position: relative;
+				float: left;
+				width: 190px;
+				height: 130px;
+				border: 4px outset silver;
+				border-radius: 25px 25px 25px 25px;
+				margin-right: 2%;
+				animation-name: flipInX;
+			    animation-duration: 2s;
+			    animation-iteration-count: 1;
+				img {
+					width: 182px;
+			  		height: 122px;
+					border-radius: 25px 25px 25px 25px;
+				}
+			}
+		}
+	}
+}
+/* this part styles iframe for game */
+.game-frame {
+	background-color: black;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9998;
+	//visibility: hidden;
+	display: none;
+	.escape {
+		position:absolute;
+		top: 30px;
+		right: 30px;
+		z-index: 9999;
+	}
+}

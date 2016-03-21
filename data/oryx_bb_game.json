@@ -1,0 +1,9 @@
+{
+  "game": {
+    "id": "01",
+    "name": "ORYX_BB",
+    "userName": "eugene",
+    "token": "eugene0001",
+    "icon": "/casino-example/build/images/games/oryx/BB/250x157.png"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "games": [
+  	{
+      "name": "ORYX_AB",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/AB/188X125.png"
+    },
+    {
+      "name": "ORYX_AE",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/AE/188X125.png"
+    },
+    {
+      "name": "ORYX_AF",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/AF/188X125.png"
+    },
+    {
+      "name": "ORYX_AR",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/AR/188X125.png"
+    },
+    {
+      "name": "ORYX_BB",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/BB/188X125.png"
+    },
+    {
+      "name": "ORYX_BCC",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/BCC/188X125.png"
+    },
+    {
+      "name": "ORYX_CH",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/CH/188X125.png"
+    },
+    {
+      "name": "ORYX_DW",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/DW/188X125.png"
+    },
+    {
+      "name": "ORYX_ER",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/ER/188X125.png"
+    },
+    {
+      "name": "ORYX_FF",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/FF/188X125.png"
+    },
+    {
+      "name": "ORYX_FR",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/FR/188X125.png"
+    },
+    {
+      "name": "ORYX_G7C",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/G7C/188X125.png"
+    },
+    {
+      "name": "ORYX_JP",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/JP/188X125.png"
+    },
+    {
+      "name": "ORYX_JB",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/JB/188X125.png"
+    },
+    {
+      "name": "ORYX_PN",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/PN/188X125.png"
+    },
+    {
+      "name": "ORYX_RT",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/RT/188X125.png"
+    },
+    {
+      "name": "ORYX_WP",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/WP/188X125.png"
+    },
+    {
+      "name": "ORYX_WS",
+      "type": "oryx",
+      "icon": "/casino-example/build/images/games/oryx/WS/188X125.png"
+    }
+  ]
+}

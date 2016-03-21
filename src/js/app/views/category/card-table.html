@@ -1,0 +1,32 @@
+<div class="page-default" ng-controller="MainController">
+	<div id="landing-page" class="container-fluid">
+		<div class="container wrap-content">
+			<div ng-include="'/casino-example/build/app/views/main/game-frame.html'"></div>
+	    <div class="row menu-part">
+	    	<div>
+	    	  <a href="/casino-example/index.php">
+	    		<span class="glyphicon glyphicon-circle-arrow-left"></span>Nazad na početnu stranu
+	    	  </a>
+	        </div>
+	    </div>
+	    <div class="row select-part">
+	    	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+	    		<div ng-if="$last.slider==0" class="arrow-left" ng-click="prevSlide($event)"> </div>
+	    	</div>
+	    	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+	    		<div ng-repeat="i in gameGroup(0)" ng-init="slider = $index"
+	    		 class="slide slide-{{$index}} {{slider === 0? 'active' : 'hide'}}"><!--here we iterate through fist game object-->
+	    			<div ng-repeat="game in games[0].games | limitTo : 12 : slider*12" ng-click="gamePopUp($event)" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 game-{{game.name}}"><!--and then iterate through all games-->
+			    		<a id="{{game.name}}" href="/casino-example/category/game/{{game.name}}"><img src='{{game.icon}}' alt=""></a>
+			    		<img src="/casino-example/src/images/common/game-shadow.png" alt="" class="shadow">
+			    	</div>
+	    		</div>
+	    	</div>
+	    	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+	    		<div ng-if="$last.slider==0" class="arrow-right" ng-click="nextSlide($event)"> </div>
+	    	</div>
+	    </div> 
+	    <div ng-include="'/casino-example/build/app/views/main/random.html'"></div>
+    </div>
+  </div> <!-- end of landing page -->
+</div>
